@@ -8,7 +8,7 @@ spring:
         smtp:
           ssl:
             enable: true
-# database            
+           
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/springcloud?useUnicode=true&characterEncoding=utf8
@@ -19,11 +19,9 @@ spring:
     show-sql: true
     hibernate:
       naming:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl  #避免将驼峰命名转换为下划线命名
- # 限流配置
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl  
+
  ip:
   limited:
-    # 时间窗大小（second）
     limit: 10
-    # 访问次数
     time: 1000
