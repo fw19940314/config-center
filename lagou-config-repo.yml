@@ -7,6 +7,7 @@
     time: 1000
 
 ## 邮件配置
+spring:
   mail:
     username: fw940314@foxmail.com
     password: clzotjwzysgvbjaa
