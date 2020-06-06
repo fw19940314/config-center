@@ -20,8 +20,7 @@ spring:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl  
-
- ip:
+ip:
   limited:
     limit: 10
     time: 1000
