@@ -17,9 +17,7 @@ spring:
         smtp:
           ssl:
             enable: true
-
-## 数据库配置
-spring:
+# database            
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/springcloud?useUnicode=true&characterEncoding=utf8
