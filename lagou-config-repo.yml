@@ -1,13 +1,4 @@
-spring:
-  mail:
-    username: fw940314@foxmail.com
-    password: clzotjwzysgvbjaa
-    host: smtp.qq.com
-    properties:
-      mail:
-        smtp:
-          ssl:
-            enable: true
+
            
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
